@@ -7,5 +7,11 @@ Usage:
 	r1 = getRandomResistor(1,15) # r1 will be a
 
 
+Install:
+
+check out this repo, then 
+
+pip install -e .
+
 
 
