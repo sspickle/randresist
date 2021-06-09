@@ -4,7 +4,7 @@ Usage:
 
 	from randomresist import getRandomResistor
 
-	r1 = getRandomResistor(1,15) # r1 will be a valid value for a real resistor
+	r1 = getRandomResistor(1,15) # r1 will be an E-24 value for a 5% resistor
 
 Install:
 
