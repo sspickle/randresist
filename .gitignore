@@ -1,0 +1,16 @@
+*~
+.DS_*
+Icon*
+__pycache__
+*.pdf
+*.log
+*.aux
+*.tex
+*.zip
+/venv
+/tlo*
+/export/output/*.xml
+genlatex.egg-info
+/dist
+
+
