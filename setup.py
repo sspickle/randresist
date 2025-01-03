@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(name='randresist',
-      version='0.01',
+      version='0.2',
       description='A simple random resistor generator',
       long_description=long_description,
       long_description_content_type='text/markdown',
