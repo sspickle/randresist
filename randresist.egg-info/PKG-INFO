@@ -6,23 +6,19 @@ Home-page: https://github.com/sspickle/randresist
 Author: Steve Spicklemire
 Author-email: steve@spvi.com
 License: MIT
-Description: # Let's get some random resistor values.
-        
-        Usage:
-        
-        	from randomresist import getRandomResistor
-        
-        	r1 = getRandomResistor(1,15) # r1 will be a
-        
-        
-        Install:
-        
-        check out this repo, then 
-        
-        pip install -e .
-        
-        
-        
-        
-Platform: UNKNOWN
 Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Let's get some random resistor values.
+
+Usage:
+
+	from randomresist import getRandomResistor
+
+	r1 = getRandomResistor(1,15) # r1 will be an E-24 value for a 5% resistor
+
+Install:
+
+check out this repo, then 
+
+pip install -e .
